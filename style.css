@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+   box-sizing: border-box;
+  font-family: 'Protest Strike', sans-serif;
+ background-image: url(images/Picsart_24-02-14_23-36-56-965.jpg);
+ background: no-repeat;
+ background: fixed;
+}
+/* start nav */
+nav ul{
+  font-size: larger;
+}
+nav h1{
+  float: left;
+  line-height: 90px;
+  font-size: 45px;
+  color: rgb(216, 149, 67);
+}
+nav ul{
+  float: right;
+  line-height: 70PX;
+}
+nav ul li{
+display: inline-block;
+padding: 5px;
+}
+nav ul li a{
+  color: rgb(253, 253, 253);
+  border-radius: 15px;
+  padding: 10px 12px;
+}
+nav ul li a:hover{
+  background-color: rgb(250, 205, 158);
+  transition: 1s ease;
+  text-decoration: none;
+}
+/* end nav */
+
+
+
+/* start form  */
+.article{
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  transform: translateY(25vh);
+}
+.article h1{
+  font-size: 80px;
+ color: rgb(196, 168, 135);
+  letter-spacing: 9px;
+  margin-bottom: 100px;
+}
+section h1:hover{
+  color:rgb(170, 98, 11);
+ transition: 1s ease;
+}
+.article p{
+  font-size: 40px;
+  color:#ffffff;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+.article .btn{
+color: #ffffff;
+padding: 12px 25px;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+text-decoration: none;
+background-color: rgb(228, 194, 159);
+margin-bottom: 200px;
+}
+.article .btn:hover{
+  background-color: rgb(131, 109, 87);
+  transition: 0.5s ease; 
+
+}
+/* end form  */
+
+
+
+
+/* start cards */
+
+.card{
+  width: 25%;
+  min-width: 200px;
+  background: none;
+  border-radius: 30px;
+  padding: 5px;
+  color: rgb(248, 248, 248);
+ margin-top: 40px;
+}
+.card :hover{
+  background-color: rgb(196, 168, 135);
+  border-radius: 10%;
+  margin-bottom: 50px;
+}
+.card button{
+  color: rgb(255, 255, 255);
+  
+}
+.cards{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  container: 100%;
+}
+.cards :hover{
+  color: rgba(212, 169, 48, 0.801);
+ transition: 0.5s ease;
+} 
+.OO{
+  display: flex;
+  margin-top: 50PX;
+}
+.OO :hover{
+background-color: rgb(199, 160, 76);
+  transition: 1s ease;
+  border-radius: 10px;
+}
+.OO h3{
+  font-size: xx-large;
+  margin-top: 70px;
+  color: rgb(0, 0, 0);
+}
+.OOO h3 p{
+   font-size: xx-large;
+background-color: black;
+}
+.OO button{
+  width: 100%;
+font-size: xx-large;
+}
+/* end cards */
+
+
+
+/* start slide  */
+.slidCont{
+  padding:50px 150px;
+  }
+  .text h3{
+    font-size: larger;
+    color: rgb(175, 103, 20);
+  }
+  .text{
+    text-align: center;
+    border: 3px #ffffff solid ;
+   border-radius: 90px;
+   color: rgb(235, 213, 190);
+   padding:5px;
+   margin-top: 30px;
+   font-size: x-large;
+   min-width: 300px;
+  }
+/* end slide  */
+
+
+
+/* start video */
+  .video{
+    text-align: center;
+    margin-bottom: 40px;
+    min-width: 300px;
+    
+  }
+
+/* end video */
+
+.h1x{
+  color: bisque;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: -70px;
+}
+.h1x:hover{
+  color: rgb(177, 127, 57);
+  transition: 1s ease;
+  margin-bottom: 70px;
+}
+/* start footer */
+.footerCont{
+
+  text-align: center;
+}
+footer{
+background-color: rgb(0, 0, 0);
+margin-top: 120px;
+text-align: center;
+
+
+}
+.h1z{
+ font-size: x-large;
+ text-align: center;
+}
+
+footer{
+  margin-top: 120px;
+  text-align: center;
+  background-color: black;
+  background-image: url(Picsart_24-02-16_00-26-10-541.jpg);
+  text-align: center;
+}
+.container{
+background-image: ;
+  color: #000;
+}
+/* end footer */
+.contact{
+  margin-top: 140px;
+}
+.contactnav{
+  margin-bottom: 50px;
+  margin-top: 70px;
+}
+.contactnav{
+  background-color: rgb(192, 156, 108);
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
