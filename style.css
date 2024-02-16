@@ -9,30 +9,27 @@
  background: fixed;
 }
 /* start nav */
+/* header */
+header{
+  background-color: bisque;
+}
+/* header */
 nav ul{
   font-size: larger;
 }
-nav h1{
-  float: left;
-  line-height: 90px;
-  font-size: 45px;
-  color: rgb(216, 149, 67);
-}
 nav ul{
-  float: right;
-  line-height: 70PX;
+  line-height: 30PX;
 }
 nav ul li{
-display: inline-block;
 padding: 5px;
+background-color: #ffffff;
 }
-nav ul li a{
-  color: rgb(253, 253, 253);
+ nav ul li a{
+  color: rgb(0, 0, 0);
   border-radius: 15px;
-  padding: 10px 12px;
-}
+} 
 nav ul li a:hover{
-  background-color: rgb(250, 205, 158);
+  background-color: rgb(189, 157, 123);
   transition: 1s ease;
   text-decoration: none;
 }
@@ -206,7 +203,7 @@ footer{
   text-align: center;
 }
 .container{
-background-image: ;
+
   color: #000;
 }
 /* end footer */
